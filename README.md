@@ -30,8 +30,14 @@ Based of the calculations, Lot 1 and Lot 2 are both within design specifications
 # DELIVERALBE 3: T-Tests on Suspension Coils 
 
 Screen Shot 2021-06-27 at 11.46.47 PM<img width="460" alt="Screen Shot 2021-06-27 at 11 46 47 PM" src="https://user-images.githubusercontent.com/80291340/123596411-05198180-d7a7-11eb-9ad7-b2abfa7f6cfb.png">
+
+
 Screen Shot 2021-06-27 at 11.47.00 PM<img width="461" alt="Screen Shot 2021-06-27 at 11 47 00 PM" src="https://user-images.githubusercontent.com/80291340/123596447-0ea2e980-d7a7-11eb-8271-9a3a0e0d5bc4.png">
+
+
 Screen Shot 2021-06-27 at 11.47.09 PM<img width="487" alt="Screen Shot 2021-06-27 at 11 47 09 PM" src="https://user-images.githubusercontent.com/80291340/123596469-1498ca80-d7a7-11eb-8796-9dbcdb2b2e83.png">
+
+
 Screen Shot 2021-06-27 at 11.47.20 PM<img width="487" alt="Screen Shot 2021-06-27 at 11 47 20 PM" src="https://user-images.githubusercontent.com/80291340/123596489-19f61500-d7a7-11eb-9bc6-64c48617cebe.png">
 
 
