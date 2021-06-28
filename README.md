@@ -1,17 +1,21 @@
-# MechaCar_Statistical_Analysis
-### Module 15: Statistics and R 
+# MechaCar_Statistical_Analysis/ Module 15: Statistics and R 
+
+
+## Overview
+In this challenge, we utilized Statistics and R to perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes. We also had to collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots, run t-tests to determine if the manufacturing lots are statistically different from the mean population, and finally design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers.
 
 
 ## DELIVERALBE 1: Linear Regression to Predict MPG
+Screen Shot 2021-06-27 at 11.46.29 PM<img width="582" alt="Screen Shot 2021-06-27 at 11 46 29 PM" src="https://user-images.githubusercontent.com/80291340/123593402-5162c280-d7a3-11eb-974a-8c57a1a4338f.png">
 
-and write a short summary using a screenshot of the output from the linear regression, and address the following questions:
+- Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+Variance of a non-random variable is usually 0---vehicle weight, spoiler_angle & AWD provided a non-random amount of variance. The two variables that had the most amount of random variance are ground_clearance and vehicle_length.
 
-Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+- Is the slope of the linear model considered to be zero? Why or why not?
+By the p-value, it seems that the slope is not zero---it is less than 0.05. With a significance level of 0.05 ---we reject the null hypothesis because of the extremely small p-value. The null hypothesis of a linear regression states that the slope is equal to 0. Howver, rejecting the null hypthesis, we're stating that alternative hypothesis is true---proving that the slope is not 0. 
 
-Is the slope of the linear model considered to be zero? Why or why not?
-
-Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
-
+- Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+Our R-squared value is 71%, which means that about 70% of the time the model will predict mpg values correctly. Which concludes that this linear model predicts the mpg of MechaCar prototypes relatively well.
 
 ## DELIVERALBE 2: Summary Statistics on Suspension Coils
 
