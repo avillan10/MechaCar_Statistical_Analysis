@@ -1,3 +1,5 @@
+## DELIVERALBE 1-------
+
 # 3 Use the library() function to load the dplyr package.
 library(dplyr)
 
@@ -35,3 +37,42 @@ summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_cleara
 
 # 6 Using the summary() function, determine the p-value and the r-squared value for the linear regression model.
 
+
+## DELIVERABLE 2------
+
+# Import the data
+sus_coil <- read.csv(file='Suspension_Coil.csv', check.names = F, stringsAsFactors = F)
+
+# Write an RScript that creates a total_summary dataframe using the summarize() function to get the mean, median, variance, and standard deviation of the suspension coil’s PSI column.
+total_summary <- sus_coil %>% summarize(Mean = mean(PSI), Median = median(PSI), Variance = var(PSI), SD = sd(PSI))
+lot_summary <- sus_coil %>% group_by(Manufacturing_Lot) %>% summarize(Mean = mean(PSI), Median = median(PSI),Variance = var(PSI), SD = sd(PSI))
+
+
+
+## DELIVERABLE 3-------
+
+# Determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch
+t.test(sus_coil$PSI, mu = 1500)
+
+## ANSWER FOR ABOVE: One Sample t-test
+
+# data:  sus_coil$PSI
+# t = -1.8931, df = 149, p-value = 0.06028
+# alternative hypothesis: true mean is not equal to 1500
+# 95 percent confidence interval:
+#  1497.507 1500.053
+#sample estimates:
+#  mean of x 
+# 1498.78 
+
+# Determine if the PSI for each manufacturing lot is statistically different from the population mean of 1,500 pounds per square inch
+Lot1 = subset(sus_coil, Manufacturing_Lot == 'Lot1')
+Lot2 = subset(sus_coil, Manufacturing_Lot == 'Lot2')
+Lot3 = subset(sus_coil, Manufacturing_Lot == 'Lot3')
+
+t.test(Lot1$PSI, mu = 1500) 
+# p-value = 1
+t.test(Lot2$PSI, mu = 1500)
+# p-value = 0.6072
+t.test(Lot3$PSI, mu = 1500)
+# p-value = 0.04168
