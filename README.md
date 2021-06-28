@@ -18,12 +18,13 @@ By the p-value, it seems that the slope is not zero---it is less than 0.05. With
 Our R-squared value is 71%, which means that about 70% of the time the model will predict mpg values correctly. Which concludes that this linear model predicts the mpg of MechaCar prototypes relatively well.
 
 ## DELIVERALBE 2: Summary Statistics on Suspension Coils
+Screen Shot 2021-06-27 at 11.45.57 PM<img width="376" alt="Screen Shot 2021-06-27 at 11 45 57 PM" src="https://user-images.githubusercontent.com/80291340/123595486-d0f19100-d7a5-11eb-98f9-30ee15fbe2df.png">
 
-and write a short summary using screenshots from your total_summary and lot_summary dataframes, and address the following question:
+Screen Shot 2021-06-27 at 11.45.16 PM<img width="545" alt="Screen Shot 2021-06-27 at 11 45 16 PM" src="https://user-images.githubusercontent.com/80291340/123595510-d949cc00-d7a5-11eb-9b61-e12966b3dccf.png">
 
-The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. 
 
-Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+- The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+Based of the calculations, Lot 1 and Lot 2 are both within design specifications and have similar means and medians. Lot 3 shows the most variance and exceeds the manufacturers' specifications. 
 
 
 ## DELIVERALBE 3: T-Tests on Suspension Coils 
