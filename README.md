@@ -41,4 +41,9 @@ Screen Shot 2021-06-27 at 11.47.09 PM<img width="487" alt="Screen Shot 2021-06-2
 Screen Shot 2021-06-27 at 11.47.20 PM<img width="487" alt="Screen Shot 2021-06-27 at 11 47 20 PM" src="https://user-images.githubusercontent.com/80291340/123596489-19f61500-d7a7-11eb-9bc6-64c48617cebe.png">
 
 
-then briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
+## - Briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
+Lot 1 and Lot 3 the PSI values are not different from the population mean. However lot 2 the p-value is .347 which means there is evidence that the suspension coil is different from the population mean. All t-tests can be viewed above. 
+
+
+# DELIVERALBE 4: Design a Study Comparing the MechaCar to the Competition. 
+The study of fuel efficiency within highway and city MPG would be a very useful analysis for clients that are interested in fuel economy. Considering today's varied types of engines---being aware of fuel economy when purchasing a new care is very good not only on our wallets, but very good for the environment. The metrics that can be analyzed are city and highway fuel economy, horsepower, type of engine (internal combustion engines or EV/ PHEV), weight of vehicle, AWD capabilities, etc. 
